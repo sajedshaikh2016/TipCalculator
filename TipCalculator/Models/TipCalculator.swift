@@ -12,7 +12,6 @@ enum TipCalculatorError: Error {
 }
 
 class TipCalculator {
-    
     func calculate(total: Double, tipPercentage: Double) throws -> Double {
         
         if total < 0 {
